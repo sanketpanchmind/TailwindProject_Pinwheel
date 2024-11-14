@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Garamond": ['EB Garamond', 'serif']
+        montserrat: ['Montserrat', 'sans-serif'],
+        ebgaramond: ['EB Garamond', 'serif'],
+        lora: ['Lora', 'serif'],
+        raleway: ['Raleway', 'sans-serif'],
+        roman: ['Luxurious Roman', 'serif'],
     }
     },
   },
