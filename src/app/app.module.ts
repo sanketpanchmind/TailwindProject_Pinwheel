@@ -7,10 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
+import { HomepageComponent } from './homepage/homepage.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
@@ -18,7 +21,7 @@ import {MatTableModule} from '@angular/material/table';
     BrowserAnimationsModule,
     MatRadioModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
