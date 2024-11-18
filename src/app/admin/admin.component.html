@@ -1,11 +1,10 @@
-<div class="shadow-lg  font-montserrat">
-    <app-adminheader></app-adminheader>
-</div>
-<div class="flex gap-1 h-full  font-montserrat ">
-    <div class=" w-[50px] hover:w-60 transition-all duration-500 h-full bg-[#fe61191e] fixed lg:relative">
+
+<div class="flex gap-1 h-full  font-montserrat overflow-x-hidden">
+    <div class=" w-[50px] hover:w-60 overflow-x-hidden transition-all duration-500 h-full bg-[#5c5470] fixed top-0 ">
         <app-sidebar></app-sidebar>
     </div>
-    <div class="w-full">
+    <div class="flex flex-col gap-2 w-full z[-999]">
+        <app-adminheader></app-adminheader>
         <app-maincontent></app-maincontent>
     </div>
 </div>
