@@ -1,62 +1,71 @@
 <!-- <p class="">sidebar works!vdfgfdgfdgfdgfdgdfgdfgfdgfdgdfgd</p>
  <p>sidebar works!</p> -->
- <!-- <p>sidebar works!</p> -->
-<div class="menus py-10 px-0 h-full pt-20">
-    <ul class="flex flex-col gap-4 justify-center">
-        <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium ">
-            <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
-                <i class="fa-solid fa-gauge"></i>
-                <span>Dashboard</span>
-            </div>
-        </li>
-        <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium">
-            <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
-                <i class="fa-brands fa-intercom"></i>
-                <span>Application</span>
-            </div>
-        </li>
-        <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium">
-            <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
-                <i class="fa-brands fa-centercode"></i>
-                <span>CRC Center</span>
-            </div>
-        </li>
+<!-- <p>sidebar works!</p> -->
+<div class="group">
+    <div class="group-hover:hidden transition-all duration-150">
+        <i class="fa-solid fa-right-from-bracket text-4xl py-4 px-1 text-[#dbd8e3]"></i>
+    </div>
+    <div class="logo py-3 hidden group-hover:block transition-all duration-150">
+        <img src="https://themewagon.github.io/pinwheel/images/logo.svg" alt="" class="w-auto h-10">
+    </div>
+    <div class="menus py-10 px-0 h-full pt-5">
 
-        <li class="flex flex-col justify-between font-medium hover:bg-[#2a2438] hover:text-[#dbd8e3] px-0 py-0 group transition-all duration-500">
-            <div class="flex items-center gap-5  py-2 px-5 w-full">
-                <i class="fa-solid fa-sailboat"></i>
-                <div class="flex items-center justify-between w-full">
-                    <span>Masters</span>
-                    <span><i class="fa-solid fa-caret-down text-[#dbd8e3]"></i></span>
+        <ul class="flex flex-col gap-4 justify-center">
+            <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium ">
+                <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
+                    <i class="fa-solid fa-gauge"></i>
+                    <span>Dashboard</span>
                 </div>
-            </div>
-            <ul class="flex flex-col gap-10  bg-[#352f44] hidden group-hover:block transition-all duration-500">
-                <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
-                    <div class="flex gap-5 ">
-                        <span class="arrow-hover"><i class="fa-solid fa-arrow-right text-xs "></i></span>
-                        <span> Markets</span>
-                    </div>
-                </li>
-                <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
-                    <div class="flex gap-5">
-                        <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        <span> Market Rate</span>
-                    </div>
-                </li>
-                <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
-                    <div class="flex gap-5">
-                        <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        <span>Blogs</span>
-                    </div>
-                </li>
-                <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
-                    <div class="flex gap-5">
-                        <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
-                        <span>FAQ's</span>
-                    </div>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
+            </li>
+            <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium">
+                <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
+                    <i class="fa-brands fa-intercom"></i>
+                    <span>Application</span>
+                </div>
+            </li>
+            <li class="hover:bg-[#2a2438] hover:text-[#dbd8e3] font-medium">
+                <div class="flex items-center gap-5  py-2 px-5 w-full text-[16px]">
+                    <i class="fa-brands fa-centercode"></i>
+                    <span>CRC Center</span>
+                </div>
+            </li>
 
+            <li
+                class="flex flex-col justify-between font-medium hover:bg-[#2a2438] hover:text-[#dbd8e3] px-0 py-0 group transition-all duration-500">
+                <div class="flex items-center gap-5  py-2 px-5 w-full">
+                    <i class="fa-solid fa-sailboat"></i>
+                    <div class="flex items-center justify-between w-full">
+                        <span>Masters</span>
+                        <span><i class="fa-solid fa-caret-down text-[#dbd8e3]"></i></span>
+                    </div>
+                </div>
+                <ul class="flex flex-col gap-10  bg-[#352f44] hidden group-hover:block transition-all duration-500">
+                    <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
+                        <div class="flex gap-5 ">
+                            <span class="arrow-hover"><i class="fa-solid fa-arrow-right text-xs "></i></span>
+                            <span> Markets</span>
+                        </div>
+                    </li>
+                    <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
+                        <div class="flex gap-5">
+                            <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                            <span> Market Rate</span>
+                        </div>
+                    </li>
+                    <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
+                        <div class="flex gap-5">
+                            <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                            <span>Blogs</span>
+                        </div>
+                    </li>
+                    <li class="px-10 py-2 hover:bg-[#2a2438] hover:text-white">
+                        <div class="flex gap-5">
+                            <span><i class="fa-solid fa-arrow-right text-xs"></i></span>
+                            <span>FAQ's</span>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
